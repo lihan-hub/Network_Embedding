@@ -1,6 +1,9 @@
+# -*- coding: utf-8 -*-
+# coding: utf-8
 """
 This version can be used to reproduce what have been done.
 """
+from collections import OrderedDict
 #######################################################################################################
 #######################################################################################################
 DISEASE_GENE_FILE = "datasets/DG.txt"
@@ -8,11 +11,12 @@ MIRNA_DISEASE_FILE = "datasets/MD.txt"
 WRITE_PATH = "datasets/"
 # 存储数据为 id_gene.txt、id_disease、id_miRNA.txt、
 # disease_gene.txt、disease_miRNA.txt(Note:这两个文件全是用上述三个文件中的id表示的)
-gene_id = {}
-disease_id = {}
-miRNA_id = {}
-disease_gene = {}
-disease_miRNA = {}
+
+gene_id = OrderedDict()
+disease_id = OrderedDict()
+miRNA_id = OrderedDict()
+disease_gene = OrderedDict()
+disease_miRNA = OrderedDict()
 
 gene_names = []
 disease_names_of_gene = []
@@ -123,7 +127,9 @@ for disease, gene in zip(disease_names_of_gene, gene_names):
 outfile.close()
 
 outfile = open(WRITE_PATH + "disease_miRNA.txt", 'w')
-for disease, miRNA in zip(disease_names_of_miRNA, miRNA_names):
+#for disease, miRNA in zip(disease_names_of_miRNA, miRNA_names):
+# sorted by disease name for better understanding
+for disease, miRNA in sorted(zip(disease_names_of_miRNA, miRNA_names)):
     outline = disease_id[disease] + "\t" + miRNA_id[miRNA]
     outfile.write(outline + "\n")
 outfile.close()
