@@ -89,6 +89,7 @@ class MetaPathGenerator:
 			conf0 = conf
 			for j in range(0, numwalks ): #wnum walks
 				outline = self.id_conf[conf0]
+				conf = conf0		# reinitialize, 之前没加这句, 生成负样本时会出错
 				for i in range(0, walklength):					# walklength与numa以及numc之间的数值差异是否有待研究？
 					authors = self.conf_authorlist[conf]
 					numa = len(authors)
