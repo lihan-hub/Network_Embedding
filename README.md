@@ -5,3 +5,5 @@
 > - [NN SVG](http://alexlenail.me/NN-SVG/index.html)
 ## Link2Vec
 > - Start Now !
+#### Tips
+> - 处理网路节点编码时，应当对应对应不同的id。比如: disease节点从0开始编码，miRNA也从0开始编码。这样做可能在生成词向量时会造成一定的误差，因为所利用的嵌入算法是对网络节点id进行随机游走，若出现不同类型的节点拥有相同的id，可能会造成训练词向量时的误差。
