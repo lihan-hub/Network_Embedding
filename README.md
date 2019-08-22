@@ -3,6 +3,8 @@
 > - where M means miRNA, D means Disease, G means Gene.
 #### 网络结构图绘制
 > - [NN SVG](http://alexlenail.me/NN-SVG/index.html)
+#### DBSI
+> - disease based similarity inference
 ## Link2Vec
 > - Start Now !
 #### Tips
