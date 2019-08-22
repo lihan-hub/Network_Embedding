@@ -16,7 +16,6 @@ def DBSI(disease_similaritity, data_train):
     DBSI_result = np.ones((data_train.shape[1], data_train.shape[0]))*0
     for i in range(data_train.shape[1]):
         for j in range(data_train.shape[0]):
-            val = 0.00
             sum_up = 0.00
             sum_low = 0.00
             for ix in range(data_train.shape[1]):
