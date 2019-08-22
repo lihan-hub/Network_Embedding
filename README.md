@@ -1,5 +1,8 @@
-# 基于规则的链接预测常规方法
-## DBSI
+# 连接预测
+## 基于规则的链接预测常规方法
+> - DBSI
+> - MBSI
+### DBSI
 > - disease based similarity inference
 ```python
 def DBSI(disease_similaritity, data_train):
