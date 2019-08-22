@@ -5,6 +5,27 @@
 > - [NN SVG](http://alexlenail.me/NN-SVG/index.html)
 ## DBSI
 > - disease based similarity inference
+```python
+def DBSI(disease_similaritity, data_train):
+    """
+    :param disease_similaritity:        disease相似度矩阵
+    :param data_train:                  miRNA-disease邻接矩阵
+    :return:                            疾病-miRNA预测分值——【相似的疾病可能存在相同的连接】
+    """
+    DBSI_result = np.ones((data_train.shape[1], data_train.shape[0]))*0
+    for i in range(data_train.shape[1]):
+        for j in range(data_train.shape[0]):
+            val = 0.00
+            sum_up = 0.00
+            sum_low = 0.00
+            for ix in range(data_train.shape[1]):
+                if ix != i:
+                    sum_up += (disease_similaritity[i, ix] * data_train[j, ix])
+                    sum_low += (disease_similaritity[i, ix])
+            val = sum_up/sum_low
+            DBSI_result[i, j] = val
+    return DBSI_result
+```
 ## Link2Vec
 > - Start Now !
 #### Tips
