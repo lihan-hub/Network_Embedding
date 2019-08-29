@@ -33,5 +33,7 @@ def DBSI(disease_similaritity, data_train):
 > - [NN SVG](http://alexlenail.me/NN-SVG/index.html)
 #### Link2Vec
 > - Start Now !
+#### Deep Forest
+> - 
 #### Tips
 > - 网络节点编码时，应当处理为不同的id。比如: disease节点从0开始编码，miRNA也从0开始编码。这样做可能不够合理，因为所利用的嵌入算法是对网络节点id进行随机游走，从而形成语料库。若出现不同类型的节点拥有相同的id，可能会造成训练词向量时的误差。
