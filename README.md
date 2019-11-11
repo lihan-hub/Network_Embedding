@@ -1,4 +1,5 @@
 # 📌 链接预测
+🔗 [Predicting Disease Related microRNA Based on Similarity and Topology](https://www.mdpi.com/2073-4409/8/11/1405)
 > - 基于规则
 > - 网络嵌入
 ## 基于规则的链接预测常规方法
