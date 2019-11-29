@@ -2,6 +2,10 @@
 🔗 [Predicting Disease Related microRNA Based on Similarity and Topology](https://www.mdpi.com/2073-4409/8/11/1405)
 # IGAL Summary
 ing 
+## miRNA-disease association summary
+> 2010年, Jiang等人
+> 2011年，Xu等人
+> 2012年，Chen等人
 > - 基于规则
 > - 网络嵌入
 > - 基于相似性网络+机器学习算法
