@@ -3,10 +3,10 @@
 # IGAL Summary
 ing 
 ## miRNA-disease association summary
-> 2010年, Jiang等人 
-> 2011年，Xu等人 
-> 2012年，Chen等人 
-> 2013年，Xuan等人 
+> - 2010年, Jiang等人 
+> - 2011年，Xu等人 
+> - 2012年，Chen等人 
+> - 2013年，Xuan等人 
 > - 基于规则
 > - 网络嵌入
 > - 基于相似性网络+机器学习算法
