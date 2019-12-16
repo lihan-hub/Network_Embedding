@@ -15,6 +15,7 @@ ing
 > - 2016年，Pasquier等人，MiRAI
 > - 2017年，Fu等人，DeepMDA
 > - 2017年，Chen等人，RKNNMDA
+> - 2018年，Chen等人，IMCMDA
 > - 基于规则
 > - 网络嵌入
 > - 基于相似性网络+机器学习算法
