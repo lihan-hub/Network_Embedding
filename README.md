@@ -1,7 +1,7 @@
 # 📌 链接预测
-> - 🔗 [Predicting Disease Related microRNA Based on Similarity and Topology](https://www.mdpi.com/2073-4409/8/11/1405) 
-> -  🔗 [PyTorch实现的表示学习工具包——**CogDL**: An Extensive Research Platform for Deep Learning on Graphs](https://github.com/THUDM/cogdl/ "GitHub链接，点击访问")  
->>>> 2019年12月17日，集成图网络模型实现、基准测试，清华推出`图表示学习`工具包
+🔗 [Predicting Disease Related microRNA Based on Similarity and Topology](https://www.mdpi.com/2073-4409/8/11/1405)  
+🔗 [PyTorch实现的表示学习工具包——**CogDL**: An Extensive Research Platform for Deep Learning on Graphs](https://github.com/THUDM/cogdl/ "GitHub链接，点击访问")  
+>> 2019年12月17日，集成图网络模型实现、基准测试，清华推出`图表示学习`工具包
 
 # IGAL Summary
 ing 
