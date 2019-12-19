@@ -3,7 +3,7 @@
 🔗 [PyTorch实现的表示学习工具包——**CogDL**: An Extensive Research Platform for Deep Learning on Graphs](https://github.com/THUDM/cogdl/ "GitHub链接，点击访问")  
 >> 2019年12月17日，集成图网络模型实现、基准测试，清华推出`图表示学习`工具包
 
-# IGAL Summary
+# IGAL Learning Summary
 ing 
 ## miRNA-disease association summary
 > - 2010年, Jiang等人 
