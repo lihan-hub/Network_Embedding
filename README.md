@@ -18,6 +18,7 @@ ing
 > - 2016年，Pasquier等人，MiRAI
 > - 2017年，Fu等人，DeepMDA
 > - 2017年，Chen等人，RKNNMDA
+> - 2018年，Chen等人，MDHGI
 > - 2018年，Chen等人，IMCMDA
 > - 2019年，Chen等人，EDTMDA
 > - 基于规则
