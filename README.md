@@ -22,7 +22,7 @@ ing
 > - 2018年，Chen等人，IMCMDA
 > - 2019年，Chen等人，EDTMDA
 > - the other
-
+what a sad day...
 ## 基于规则的链接预测常规方法
 > - DBSI
 > - MBSI
